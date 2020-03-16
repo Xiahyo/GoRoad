@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: montserrat;
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: montserrat;
+}
+
+* {
+    font-family: montserrat;
+}
+a:hover {
+    text-decoration: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+.bg-home {
+    height: 745px;
+}
+.bg-wallpaper {
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover;
+}
+.bg-wallpaper1 {
+    background-image: url('../img/wallpaper1.jpg');
+    background-size: cover;
+}
+.overlay-danger {
+    background-image: linear-gradient(to right, rgba(231, 128, 44, 0.65), rgba(231, 44, 44, 0.65));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.logo {
+    width: 30%;
+    left: 35%;
+    position: absolute;
+    top: 35%;
+}
+.text-corona {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(231, 44, 44, 0.8);
+}
+.text-corona svg {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 3rem;
+}
